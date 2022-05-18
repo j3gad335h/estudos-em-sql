@@ -26,7 +26,7 @@ DROP DATABASE myNewDb;
 -- tamanho 255: LastName, FirstName, Address, City
 
 CREATE TABLE Users ( 
-	UserID INT, 
+  UserID INT, 
   LastName VARCHAR(255), 
   FirstName VARCHAR(255), 
   Address VARCHAR(255), 
@@ -108,8 +108,8 @@ WHERE TABLE_NAME = N'Users';
 
 CREATE TABLE Students
 ( 
-	StudentID INT,
-	StudentName VARCHAR(255), 
+  StudentID INT,
+  StudentName VARCHAR(255), 
   Address VARCHAR(255), 
   City VARCHAR(255), 
   PostalCode VARCHAR(255), 
